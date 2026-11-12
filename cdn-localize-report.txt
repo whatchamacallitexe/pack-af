@@ -1,30 +1,13 @@
-EMU OK genizy/emu@master cores=mgba
 FAILED https://cdn.jsdelivr.net/gh/bubbls/ugss@63f44d001c95b775db57a9796ec7668541975062/B3113/b3313.z64: curl: (22) The requested URL returned error: 404
 
-BASE OK bubbls/UGS-Assets@23edae6437a2cded4027d5c487fc9f6362e3ebfd/bacon may die -> baconmaydie
-BASE REWRITE baconmaydie
-BASE OK genizy/web-port@main/baldi-remaster -> baldisbasicsremaster
-BASE REWRITE baldisbasicsremaster
-FILE ballsandbricksgood: https://cdn.jsdelivr.net/gh/bubbls/ruffle@cb9c5cd6a1fe0b07adf5a80f58098808189ff4cb/normalize.css -> assets/cdn/68c00dea-normalize.css
-FILE ballsandbricksgood: https://cdn.jsdelivr.net/gh/bubbls/ruffle@cb9c5cd6a1fe0b07adf5a80f58098808189ff4cb/game.css -> assets/cdn/d53cdbfe-game.css
-FILE ballsandbricksgood: https://cdn.jsdelivr.net/gh/bubbls/ruffle@cb9c5cd6a1fe0b07adf5a80f58098808189ff4cb/jsg.js -> assets/cdn/b7da5ce1-jsg.js
-FILE ballsandbricksgood: https://cdn.jsdelivr.net/gh/st39/sdk@main/api.js -> assets/cdn/bd41ea11-api.js
-FILE bananasimulator: https://cdn.jsdelivr.net/gh/bubbls/ruffle@ad6ffa3289c102eb4a4aced92a17e4ea291603d5/bananasim.png -> assets/cdn/e3995377-bananasim.png
-FILE bananasimulator: https://cdn.jsdelivr.net/gh/bubbls/ruffle@ad6ffa3289c102eb4a4aced92a17e4ea291603d5/banacss.css -> assets/cdn/f4fb15f7-banacss.css
-FILE bananasimulator: https://cdn.jsdelivr.net/gh/bubbls/ruffle@ad6ffa3289c102eb4a4aced92a17e4ea291603d5/settings.png -> assets/cdn/bb8ecefa-settings.png
-FILE bananasimulator: https://cdn.jsdelivr.net/gh/bubbls/ruffle@ad6ffa3289c102eb4a4aced92a17e4ea291603d5/stats.png -> assets/cdn/f44ee2b2-stats.png
-FILE bananasimulator: https://cdn.jsdelivr.net/gh/bubbls/ruffle@ad6ffa3289c102eb4a4aced92a17e4ea291603d5/script.js -> assets/cdn/4838a339-script.js
-FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 403
+FILE baldisfunnewschoolultimate: https://bbcdn.githack.com/helloitadmin/smart/raw/main/baldis%20fun%20new%20school%20ultimate/TemplateData/style.css -> assets/cdn/b4d951a8-style.css
+FILE baldisfunnewschoolultimate: https://bbcdn.githack.com/helloitadmin/smart/raw/main/baldis%20fun%20new%20school%20ultimate/BFNSPUE%20Alpha%206%20Part%202b%20WebGL.loader.js -> assets/cdn/ca73d917-BFNSPUE_Alpha_6_Part_2b_WebGL.loader.js
+SKIP size 154.8MB https://bbcdn.githack.com/helloitadmin/smart/raw/main/baldis%20fun%20new%20school%20ultimate/BFNSPUE%20Alpha%206%20Part%202b%20WebGL.data
+FILE baldisfunnewschoolultimate: https://bbcdn.githack.com/helloitadmin/smart/raw/main/baldis%20fun%20new%20school%20ultimate/BFNSPUE%20Alpha%206%20Part%202b%20WebGL.framework.js -> assets/cdn/807f3eaa-BFNSPUE_Alpha_6_Part_2b_WebGL.framework.js
+FILE baldisfunnewschoolultimate: https://bbcdn.githack.com/helloitadmin/smart/raw/main/baldis%20fun%20new%20school%20ultimate/BFNSPUE%20Alpha%206%20Part%202b%20WebGL.wasm -> assets/cdn/17aa102c-BFNSPUE_Alpha_6_Part_2b_WebGL.wasm
+FILE baldisfunnewschoolultimate: https://bbcdn.githack.com/helloitadmin/smart/raw/main/baldis%20fun%20new%20school%20ultimate/BFNSPUE%20Alpha%206%20Part%202b%20WebGL.jpg -> assets/cdn/ce0a9b41-BFNSPUE_Alpha_6_Part_2b_WebGL.jpg
+FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 404
 
-FILE basketballlegendsgoodywoody: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> assets/cdn/6fd5328a-ruffle.js
-FILE basketballlegendsgoodywoody: https://cdn.jsdelivr.net/gh/gameproxy/swf_storage_1@907a0283a4167ab7ce5a3f46da958d9deb1abdae/Basketball%20Legends.swf -> ../_shared/b3bc2b96f922-Basketball_Legends.swf
-FILE basketrandom: https://cdn.jsdelivr.net/gh/bubbls/ruffle@1520d90d7b2994737acd8f7a633d018f63c22ca7/style.css -> assets/cdn/33b00798-style.css
-FILE basketrandom: https://cdn.jsdelivr.net/gh/bubbls/ruffle@1520d90d7b2994737acd8f7a633d018f63c22ca7/box2d.js -> assets/cdn/14f61d5d-box2d.js
-FILE basketrandom: https://cdn.jsdelivr.net/gh/bubbls/ruffle@1520d90d7b2994737acd8f7a633d018f63c22ca7/suppoortcheck.js -> assets/cdn/e9ccc10d-suppoortcheck.js
-FILE basketrandom: https://cdn.jsdelivr.net/gh/bubbls/ruffle@1520d90d7b2994737acd8f7a633d018f63c22ca7/offclient.js -> assets/cdn/1d3f503c-offclient.js
-FILE basketrandom: https://cdn.jsdelivr.net/gh/bubbls/ruffle@1520d90d7b2994737acd8f7a633d018f63c22ca7/main.js -> assets/cdn/d09fca44-main.js
-FILE basketrandom: https://cdn.jsdelivr.net/gh/bubbls/ruffle@1520d90d7b2994737acd8f7a633d018f63c22ca7/registersw.js -> assets/cdn/80badca0-registersw.js
-FILE basketrandom: https://cdn.jsdelivr.net/gh/bubbls/ruffle@1520d90d7b2994737acd8f7a633d018f63c22ca7/api.js -> assets/cdn/847253ba-api.js
 FAILED https://cdn.jsdelivr.net/gh/bubbls/ruffle@0b4e3e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e5e/style.css: curl: (22) The requested URL returned error: 404
 
 FAILED https://cdn.jsdelivr.net/gh/bubbls/ruffle@0b4e3e5e5e5e5e5e5e5e5e5e5e5e5e5e/box2d.js: curl: (22) The requested URL returned error: 404
@@ -41,10 +24,5 @@ FAILED https://cdn.jsdelivr.net/gh/bubbls/ugss@main/Ben%2010%20Alien%20Force.swf
 
 FAILED https://cdn.jsdelivr.net/gh/bubbls/ugss@532a93b78bf6ade4bec7f6342fe3bcad76adb4ac/Ben%2010%20-%20Omniverse%20(USA)%20(En%2CFr%2CDe%2CEs%2CIt%2CNl).nds: curl: (22) The requested URL returned error: 404
 
-FILE ben10omniverse: https://cdn.jsdelivr.net/gh/EmulatorJS/EmulatorJS@main/data/loader.js -> assets/cdn/b76f7456-loader.js
-FILE big-time-butter-baron: https://cdn.jsdelivr.net/gh/7DatsonBack/3kh0-Assets@60f2f97b00ffe9566ee06c82ecaf67255931118b/Run%202/waflash/waflash-style.css -> assets/cdn/f8a73723-waflash-style.css
-FILE big-time-butter-baron: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@c9b0b39941430635355612483f8d2aae0fa30f9c/Big_Time_Butter_Baron.swf -> assets/cdn/306de0d0-Big_Time_Butter_Baron.swf
-FILE big-time-butter-baron: https://cdn.jsdelivr.net/gh/zhit73/wafedit@183cb00916e4d250ae5bc9813864f9a70cb9986b/wasm/waflash-player.min.js -> assets/cdn/aed266bb-waflash-player.min.js
-FILE bounty-of-one: https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@060a07463cdd2b1007815f81088e4b74d5780d0d/bounty%20of%20one/TemplateData/style.css -> assets/cdn/60ecc0d3-style.css
-FILE bounty-of-one: https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@060a07463cdd2b1007815f81088e4b74d5780d0d/bounty%20of%20one/2022.05.25%20Mons%20GameDevCafe.loader.js -> assets/cdn/8e55e75d-2022.05.25_Mons_GameDevCafe.loader.js
-FILE bounty-of-one: https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@060a07463cdd2b1007815f81088e4b74d5780d0d/bounty%20of%20one/2022.05.25%20Mons%20GameDevCafe.framework.js -> assets/cdn/d434372a-2022.05.25_Mons_GameDevCafe.framework.js
+FILE bounty-of-one: https://rawcdn.githack.com/bubbls/UGS-Assets/060a07463cdd2b1007815f81088e4b74d5780d0d/bounty%20of%20one/2022.05.25%20Mons%20GameDevCafe.data -> assets/cdn/46c2aa58-2022.05.25_Mons_GameDevCafe.data
+FILE bounty-of-one: https://rawcdn.githack.com/bubbls/UGS-Assets/060a07463cdd2b1007815f81088e4b74d5780d0d/bounty%20of%20one/2022.05.25%20Mons%20GameDevCafe.wasm -> assets/cdn/12ed4882-2022.05.25_Mons_GameDevCafe.wasm
